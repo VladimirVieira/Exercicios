@@ -1,0 +1,15 @@
+#Faça um programa que leia um número inteiro qualquer
+#e mostre na tela a sua tabuada
+tabuada = int(input('Digite um número para obter a sua tabuada:'))
+print('='*20)
+print('{:>3} x {:>3} = {:>3}'.format(tabuada,1, tabuada*1))
+print('{:>3} x {:>3} = {:>3}'.format(tabuada,2, tabuada*2))
+print('{:>3} x {:>3} = {:>3}'.format(tabuada,3, tabuada*3))
+print('{:>3} x {:>3} = {:>3}'.format(tabuada,4, tabuada*4))
+print('{:>3} x {:>3} = {:>3}'.format(tabuada,5, tabuada*5))
+print('{:>3} x {:>3} = {:>3}'.format(tabuada,6, tabuada*6))
+print('{:>3} x {:>3} = {:>3}'.format(tabuada,7, tabuada*7))
+print('{:>3} x {:>3} = {:>3}'.format(tabuada,8, tabuada*8))
+print('{:>3} x {:>3} = {:>3}'.format(tabuada,9, tabuada*9))
+print('{:>3} x {:>3} = {:>3}'.format(tabuada,10, tabuada*10))
+print('='*20)
